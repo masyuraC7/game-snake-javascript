@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Snake Javascript</title>
+	<style type="text/css">
+		.btn-game{
+			background-color: #ff9800;
+			padding: 10px;
+			border: 0;
+			cursor: pointer;
+		}
+
+		.btn-game:hover, btn.click{
+			background-color: #ef8e00;
+			color: white;
+		}
+
+		.btn-game:focus{
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- membuat canvas ukuran 600 x 600 ditengah layar -->
+	<canvas style="float: left;" id="snake" width="600" height="600"></canvas>
+	<div class="float-left" style="float: left; margin-left: 20px;">
+		<h2>Game Snake Javascript Sederhana</h2>
+		<button class="btn-game" onclick="reload_game()">Restart Game</button>
+	</div>
+
+	<script src="snake.js"></script>
+</body>
+</html>
