@@ -1,4 +1,4 @@
-# Gane Snake Pure HTML5 & Javascript
+# Game Snake Pure HTML5 & Javascript
 Game snake yang dibuat dengan memanfaatkan canvas HTML5 dan Javascript.
 
 # Demo
