@@ -1,6 +1,2 @@
-# Game Snake Pure HTML5 & Javascript
-Game snake yang dibuat dengan memanfaatkan canvas HTML5 dan Javascript.
-
-# Demo
-Jika ingin melihat demo klik link dibawah.<br>
-Link Demo : https://semawur.com/C7GameSnake
+# Game Snake With HTML5, CSS & Javascript
+Game snake, sebuah permainan klasik yang dibuat menggunakan HTML5, CSS, dan JavaScript. Pemain dapat mengendalikan ular yang bergerak di sekitar papan untuk mengumpulkan makanan dan bertambah panjang setiap kali makanan dimakan. Tantangan utamanya adalah menghindari menabrak dinding atau tubuh ular sendiri seiring bertambahnya panjang.
