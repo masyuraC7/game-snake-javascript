@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Game Snake Javascript</title>
-	<style type="text/css">
-		.btn-game{
-			background-color: #ff9800;
-			padding: 10px;
-			border: 0;
-			cursor: pointer;
-		}
+  <head>
+    <title>Game Snake Javascript</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="snake-header">
+      <h2 class="game-title">GAME SNAKE JAVASCRIPT</h2>
+	  
+      <button id="btn-start" class="btn-start" onclick="start_game()">
+        START
+      </button>
+      <button
+        id="btn-restart"
+        style="display: none"
+        class="btn-game"
+        onclick="reload_game()"
+      >
+        RESTART
+      </button>
+      <div class="game-score">
+        <h2 style="margin-right: 1rem">SCORE :</h2>
+        <h2 id="score" class="score">0</h2>
+      </div>
+      <div class="game-time">
+        <h2 style="margin-right: 1rem">TIME :</h2>
+        <h2 id="time" class="time">0</h2>
+      </div>
+    </div>
+    <canvas
+      class="responsive-canvas"
+      id="snake"
+      width="1200"
+      height="480"
+    ></canvas>
 
-		.btn-game:hover, btn.click{
-			background-color: #ef8e00;
-			color: white;
-		}
-
-		.btn-game:focus{
-			outline: none;
-		}
-	</style>
-</head>
-<body>
-
-	<!-- membuat canvas ukuran 600 x 600 ditengah layar -->
-	<canvas style="float: left;" id="snake" width="600" height="600"></canvas>
-	<div class="float-left" style="float: left; margin-left: 20px;">
-		<h2>Game Snake Javascript Sederhana</h2>
-		<button class="btn-game" onclick="reload_game()">Restart Game</button>
-	</div>
-
-	<script src="snake.js"></script>
-</body>
+    <script src="snake.js"></script>
+  </body>
 </html>

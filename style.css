@@ -1,0 +1,47 @@
+/* copyright by @masyuraC7 */
+
+* {
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #478ccf;
+}
+.snake-header h2 {
+  color: white;
+  font: 30px Arial;
+  font-weight: bold;
+}
+.game-time,
+.game-score,
+.snake-header {
+  display: flex;
+  justify-content: space-around;
+}
+.responsive-canvas {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  border: solid 5px black;
+}
+.btn-game,
+.btn-start {
+  background-color: #36c2ce;
+  padding: 10px;
+  margin: 15px 0;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font: 20px Arial;
+  border-radius: 1rem;
+}
+.btn-game:hover,
+.btn-start:hover {
+  background-color: #4535c1;
+  color: white;
+}
+
+/* copyright by @masyuraC7 */
